@@ -1,0 +1,151 @@
+<!--Type ! and hit enter to get boilerplate code-->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Riya's personal site</title>
+    </head>
+
+    <body>
+
+        <table cellspacing="20">
+            <tr>
+                <td><img src="images/nature.jpeg" alt="nature" width="300" height="300"></td>
+                <td><h1>Riya Deshpande</h1></td>
+            </tr>
+        </table>
+
+        <!--img src: self closing tag-->
+        <!--<img src = "https://www.cheatsheet.com/wp-content/uploads/2021/10/Eric-Dane-Greys-Anatomy.jpg" alt="Mark Sloan">-->
+        <!--if a browser cant render the image, then it will simply display the alternative text to the user to describe what that image was about-->
+        <!--The image can be taken from internet or can be a local image from the same directory-->
+        <!--Search Engine Optimization: website ranking for certain keywords. Google looks at alt text to find out that if someone searches for Mark Sloan, our webpage is related to it. -->
+        <!--You can upload your photo on photobucket to get a URL of it-->
+        <!--If you take a URL from twitter, our webpage pings twitter and asks for download. On getting permission, it loads the image on our webpage.-->
+        <!--But if the Twitter server is down, we no longer can download the image from there. The image will appear as blank on our webpage.-->
+
+        <img src="images/comic.jpeg" alt="comic" width="300" height="300">
+        <h1>Riya Deshpande</h1>
+        <p>Student at <em><strong><a href="https://vnit.ac.in/ece/index.php/faculty/">VNIT ECE</a></strong></em></p>
+        <!--Now VNIT ECE will appear in bold, italics and underlined since its a link. By convention, it appears blue if we've never cicked on it before and purple if we have.-->
+        <p>I love drinking coffee and writing poems while drinking coffee.</p>
+        <hr> <!--horizontal rule: self closing tag-->
+
+        <h3>Schools and Colleges</h3>
+        <!--Unordered list-->
+        <ul>
+            <li><a href="http://mulundstmary.com/">St Mary's</a></li>
+            <li><a href="https://vnit.ac.in/index.php/faculty/">VNIT</a></li>
+        </ul>
+
+        <a href="hobbies.html">My hobbies</a>
+
+        <!--Ordered list with starting number as 7-->
+        <h3>My hobbies</h3>
+        <ol start="7">
+            <li>Reading</li>
+            <li>Singing</li>
+        </ol>
+
+        <hr>
+        <!--Table-->
+        <h3>Work Experience</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Dates</th>
+                    <th>Work</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            <tr> <!--table row-->
+                <td>July-Sep 2021</td> <!--table data or cell-->
+                <td>IvLabs</td>
+            </tr>
+            <tr>
+                <td>May-July 2022</td>
+                <td>IIT Bombay</td>
+            </tr>
+            
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+        <hr>
+
+        <!--Table2-->
+        <h3>Skills</h3>
+        <table border="1">
+
+            <tr>
+                <td>Python</td>
+                <td>🌟🌟🌟🌟🌟</td>
+            </tr>
+
+            <tr>
+                <td>DSA</td>
+                <td>🌟🌟🌟🌟</td>
+            </tr>
+
+            <tr>
+                <td>Webd</td>
+                <td>🌟🌟🌟</td>
+            </tr>
+
+        </table>
+        <hr>
+
+        <!--Nested Table: Table data (cell) is a table itself-->
+        <h3>Skills</h3>
+
+        <table border="1" cellspacing="5">
+            <tr>
+                <td>
+                    <table cellspacing="10">
+
+                        <tr>
+                            <td>Python</td>
+                            <td>🌟🌟🌟🌟🌟</td>
+                        </tr>
+            
+                        <tr>
+                            <td>DSA</td>
+                            <td>🌟🌟🌟🌟</td>
+                        </tr>
+            
+                    </table>
+                </td>
+
+                <td>
+                    <table cellspacing="10">
+
+                        <tr>
+                            <td>Webd</td>
+                            <td>🌟🌟🌟🌟</td>
+                        </tr>
+            
+                        <tr>
+                            <td>MATLAB</td>
+                            <td>🌟🌟🌟</td>
+                        </tr>
+            
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+
+
+        <hr>
+
+        <a href="contact_details.html">Contact deets</a>
+
+    </body>
+
+</html>
